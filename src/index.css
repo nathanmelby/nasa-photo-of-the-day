@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.wordHolder{
+  background: white;
+  border-radius: 4px;
+  margin-top:24px;
+  margin-left:15%;
+  margin-right:15%;
+  padding-top:16px;
+  padding-bottom:16px;
+}

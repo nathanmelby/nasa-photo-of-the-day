@@ -6,7 +6,9 @@ const SiteContainer = styled.div`
     display: flex;
     flex-direction:column;
     justify-content: center;
-    background-color: #EAE6DA;
+    // background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
     font-family: 'Lato', sans-serif;
     padding-bottom: 10vh;
     padding-top: 5vh;
@@ -59,8 +61,10 @@ const ImgCard = props => {
         <CardDate>Today's Date: {props.date}</CardDate>
         <CardTitle>{props.title}</CardTitle>
         <CardImage alt="Outer Space" src = {props.url} />
+        <div className="wordHolder">
         <CardPhotographer>Photo by: {props.copyright}</CardPhotographer>
         <CardDescription>{props.explanation}</CardDescription>
+        </div>
       </CardContainer>
     </SiteContainer>
   );
